@@ -4,6 +4,8 @@ export default {
 };
 </script>
 
-<template></template>
+<template>
+  <h2>Ciao</h2>
+</template>
 
 <style></style>
