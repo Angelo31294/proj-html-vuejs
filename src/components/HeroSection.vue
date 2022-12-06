@@ -77,7 +77,7 @@ export default {
   height: 15.625rem;
   background-color: var(--second-color);
   top: 35%;
-  left: calc(100% - 528px);
+  left: calc(100% - 500px);
 
   h4 {
     color: var(--first-color);
