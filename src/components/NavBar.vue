@@ -91,11 +91,12 @@ export default {
   justify-content: space-between;
   background-color: transparent;
 }
+
 img {
   width: 7.5rem;
   margin-left: 100px;
-  margin-top: 25px;
 }
+
 ul {
   display: flex;
   list-style: none;

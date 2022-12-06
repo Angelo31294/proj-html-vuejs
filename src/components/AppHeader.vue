@@ -1,5 +1,6 @@
 <script>
 import NavBar from "./NavBar.vue";
+
 export default {
   name: "AppHeader",
   components: {
@@ -11,15 +12,14 @@ export default {
 <template>
   <header class="container">
     <NavBar />
-    <HeroSection />
   </header>
 </template>
 
 <style lang="scss" scoped>
 .container {
   margin: auto;
-  width: 120rem;
-  height: 50rem;
+  width: var(--container-size);
+  height: 31.25rem;
   background-image: url(../assets/hero-07-2x.jpg);
   background-position: center;
   background-size: cover;
