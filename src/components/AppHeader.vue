@@ -16,6 +16,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+header {
+  position: relative;
+}
 .container {
   margin: auto;
   width: var(--container-size);

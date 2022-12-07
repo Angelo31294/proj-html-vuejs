@@ -2,12 +2,14 @@
 import AboutDamon from "./MainSection/AboutDamon.vue";
 import OnlineShop from "./MainSection/OnlineShop.vue";
 import AudioBook from "./MainSection/AudioBook.vue";
+import CriticsSection from "./MainSection/CriticsSection.vue";
 export default {
   name: "AppMain",
   components: {
     AboutDamon,
     OnlineShop,
     AudioBook,
+    CriticsSection,
   },
 };
 </script>
@@ -17,6 +19,7 @@ export default {
     <AboutDamon />
     <OnlineShop />
     <AudioBook />
+    <CriticsSection />
   </div>
 </template>
 
