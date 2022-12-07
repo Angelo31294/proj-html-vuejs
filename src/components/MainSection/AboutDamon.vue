@@ -19,7 +19,7 @@ export default {
 <style lang="scss" scoped>
 .col {
   text-align: center;
-  width: var(--container-md);
+  width: 56.25rem;
   margin: auto;
   padding: 3.75rem 0;
 }

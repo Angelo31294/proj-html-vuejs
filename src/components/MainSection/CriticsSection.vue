@@ -96,7 +96,7 @@ export default {
   .col {
     display: flex;
     flex-wrap: wrap;
-    width: var(--container-md);
+    width: 56.25rem;
     margin: auto;
 
     .col-header {
